@@ -1,0 +1,152 @@
+html, body{
+    margin: 0;
+    
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.mainBox{
+    flex: 1;
+}
+
+.mainBox#topBox{
+    background-color: #1F2937;  
+    position: relative; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainBox#midBox{
+}
+
+.mainBox#midBox2{
+    background-color: #e5e7eb;
+}
+
+.mainBox#lowBoc{
+    
+}
+
+/*-------------header------------------- */
+
+#header{
+ position: fixed;
+ display: flex;
+ top: 0;
+ height: 35px;
+ width: 100%;
+ 
+ justify-content: baseline;
+}
+
+#header #headerLogo{
+    flex:1;
+    padding-left: 175px;
+    padding-top: 5px;
+    font-size: 24px;
+    color: #e5e7eb;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    user-select: none;
+
+}
+
+#header #headerLinkBox{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex: 1;
+
+}
+
+#header #headerLinkBox div{
+
+    color: #e5e7eb;
+    font-size: 11px;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#header #headerLinkBox div:hover{
+    background-color:#121820;
+    color: #979ca5;
+}
+
+
+/*-----------------------mainBoc Content--------- */
+
+
+.mainBox .box{
+    flex:0 1 500px;
+    
+    height: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.mainBox #mainText{
+    padding-right: 25px;
+    user-select: none;
+}
+.mainBox #mainText h1{
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.mainBox #mainText p{
+    color: #e6e7eb;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+}
+
+.mainBox #mainText #signUp{
+    background-color: #3882f6;
+    width: 100px;
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 5px;
+    margin-top: 10px;
+    color: #f9faf8;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.mainBox #mainText #signUp:hover{
+    border:solid #3882f6;
+    background-color: #f9faf8;
+    color: #3882f6;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    width: 98px;
+}
+
+
+.mainBox #placeHolder{
+    display: flex;
+    background-color: rgba(219, 219, 219, 0.555);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainBox #placeHolder p{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+    user-select: none;
+}
